@@ -10,7 +10,3 @@ This repo contains the `aavegotchi-gbm-skill` skill folder (docs-first) for inte
 Skill contents:
 - `aavegotchi-gbm-skill/SKILL.md`
 - `aavegotchi-gbm-skill/references/`
-
-Install targets (kept in sync separately):
-- Local (Clawd): `/Users/coderdan/Documents/GitHub/clawd-workspace/skills/aavegotchi-gbm-skill/`
-- VPS (OpenClaw): `/home/agent/.openclaw/skills/aavegotchi-gbm-skill/`
