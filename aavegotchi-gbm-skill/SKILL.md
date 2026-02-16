@@ -4,7 +4,6 @@ description: >
   View, create, cancel, bid, and claim Aavegotchi GBM auctions on Base mainnet (8453).
   Subgraph-first discovery (Goldsky), with onchain verification + execution via Foundry cast.
   Safety-first: DRY_RUN defaults to 1 (simulate with cast call; only broadcast with cast send when DRY_RUN=0 and explicitly instructed).
-homepage: https://github.com/aavegotchi/aavegotchi-gbm-skill
 metadata:
   openclaw:
     requires:
