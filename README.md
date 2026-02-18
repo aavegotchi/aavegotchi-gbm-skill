@@ -10,3 +10,12 @@ This repo contains the `aavegotchi-gbm-skill` skill folder (docs-first) for inte
 Skill contents:
 - `aavegotchi-gbm-skill/SKILL.md`
 - `aavegotchi-gbm-skill/references/`
+
+## Optional Secure Alternative: Coinbase CDP Server Wallet
+
+Current private-key-based broadcast instructions remain supported.
+
+If you want to integrate policy-controlled server signing and avoid raw private keys in `.env`, see:
+- `aavegotchi-gbm-skill/references/cdp-integration.md`
+
+This repo change is docs-only and does not perform a hard migration.
