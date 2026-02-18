@@ -374,3 +374,12 @@ curl -s "$GBM_SUBGRAPH_URL" -H 'content-type: application/json' ${GOLDSKY_API_KE
   - `LibTokenSwap: swapAmount must be > 0`
   - `LibTokenSwap: deadline expired`
   - `LibTokenSwap: Insufficient output amount` (increase `swapAmount` or slippage)
+
+## Optional: Integrate Coinbase CDP Server Wallet (No PRIVATE_KEY in .env)
+
+This skill currently supports the existing `cast send --private-key` flow documented above.
+
+For an optional hardened integration with encrypted credentials, policy allowlists, and prepare/execute intent gating, see:
+- `references/cdp-integration.md`
+
+This section is integration guidance only and does not change current runtime behavior.
